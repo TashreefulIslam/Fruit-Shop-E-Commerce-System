@@ -35,29 +35,53 @@ A complete Laravel-based e-commerce application for browsing products, managing 
 
 1. Clone the repository.
 2. Install PHP dependencies:
-   - composer install
-     
-4. Install JavaScript dependencies:
-   - npm install
-     
-5. Copy the environment file:
-   - copy .env.example .env
 
-6. Generate the application key:
-   - php artisan key:generate
+```bash
+composer install
+```
 
-7. Configure your database credentials in `.env`.
-8. Run migrations:
-   - php artisan migrate
+3. Install JavaScript dependencies:
 
-9. Seed the database with sample data:
-    - php artisan db:seed
+```bash
+npm install
+```
 
-10. Build frontend assets:
-    - npm run build
+4. Copy the environment file:
+
+```bash
+copy .env.example .env
+```
+
+5. Generate the application key:
+
+```bash
+php artisan key:generate
+```
+
+6. Configure your database credentials in `.env`.
+7. Run migrations:
+
+```bash
+php artisan migrate
+```
+
+8. Seed the database with sample data:
+
+```bash
+php artisan db:seed
+```
+
+9. Build frontend assets:
+
+```bash
+npm run build
+```
 
 10. Start the development server:
-    - php artisan serve
+
+```bash
+php artisan serve
+```
 
 ## Usage
 
